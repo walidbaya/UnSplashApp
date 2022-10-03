@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "ihprogresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swiftify-Corp/IHProgressHUD.git",
+      "state" : {
+        "revision" : "c3e0cf90ba1b310073e841de7dc6ef0a2d4899e2",
+        "version" : "0.1.8"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "2c8ed9a2f3ad537dbe9e58e2ec18be361da112aa",
+        "version" : "5.9.5"
+      }
+    },
+    {
+      "identity" : "unsplash-photopicker-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unsplash/unsplash-photopicker-ios.git",
+      "state" : {
+        "revision" : "7306a92362855ec41149e5e214c63089586653f4",
+        "version" : "1.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}

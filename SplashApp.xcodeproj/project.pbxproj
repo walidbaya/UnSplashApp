@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8106FB3728EA4C1500313E6B /* UnsplashPhotoPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 8106FB3628EA4C1500313E6B /* UnsplashPhotoPicker */; };
+		8106FB3A28EAD2BD00313E6B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8106FB3928EAD2BD00313E6B /* SDWebImage */; };
+		8106FB3C28EAEE4100313E6B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106FB3B28EAEE4100313E6B /* WebService.swift */; };
+		8106FB3E28EAEF6300313E6B /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106FB3D28EAEF6300313E6B /* PhotosModel.swift */; };
+		8106FB4128EAF96D00313E6B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106FB4028EAF96D00313E6B /* CustomCell.swift */; };
+		8106FB4328EAF9B400313E6B /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8106FB4228EAF9B400313E6B /* CustomCell.xib */; };
+		8106FB4528EB049A00313E6B /* FullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106FB4428EB049A00313E6B /* FullScreenViewController.swift */; };
+		8106FB4728EB09AB00313E6B /* PannableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106FB4628EB09AB00313E6B /* PannableViewController.swift */; };
+		8106FB4928EB101800313E6B /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106FB4828EB101800313E6B /* UIApplication.swift */; };
+		8106FB4C28EB2C3500313E6B /* IHProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 8106FB4B28EB2C3500313E6B /* IHProgressHUD */; };
 		81BE4ABF28EA446C00EA7D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4ABE28EA446C00EA7D4C /* AppDelegate.swift */; };
 		81BE4AC128EA446C00EA7D4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4AC028EA446C00EA7D4C /* SceneDelegate.swift */; };
 		81BE4AC328EA446C00EA7D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE4AC228EA446C00EA7D4C /* ViewController.swift */; };
@@ -36,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8106FB3B28EAEE4100313E6B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		8106FB3D28EAEF6300313E6B /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		8106FB4028EAF96D00313E6B /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		8106FB4228EAF9B400313E6B /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		8106FB4428EB049A00313E6B /* FullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewController.swift; sourceTree = "<group>"; };
+		8106FB4628EB09AB00313E6B /* PannableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PannableViewController.swift; sourceTree = "<group>"; };
+		8106FB4828EB101800313E6B /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		81BE4ABB28EA446C00EA7D4C /* SplashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BE4ABE28EA446C00EA7D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81BE4AC028EA446C00EA7D4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8106FB3A28EAD2BD00313E6B /* SDWebImage in Frameworks */,
+				8106FB4C28EB2C3500313E6B /* IHProgressHUD in Frameworks */,
+				8106FB3728EA4C1500313E6B /* UnsplashPhotoPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8106FB3F28EAF94400313E6B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8106FB4028EAF96D00313E6B /* CustomCell.swift */,
+				8106FB4228EAF9B400313E6B /* CustomCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8106FB4D28EB3EE300313E6B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8106FB3B28EAEE4100313E6B /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8106FB4E28EB3EF000313E6B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8106FB4628EB09AB00313E6B /* PannableViewController.swift */,
+				8106FB4828EB101800313E6B /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8106FB4F28EB3F0E00313E6B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8106FB3D28EAEF6300313E6B /* PhotosModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8106FB5028EB3F2100313E6B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8106FB4428EB049A00313E6B /* FullScreenViewController.swift */,
+				81BE4AC228EA446C00EA7D4C /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		81BE4AB228EA446C00EA7D4C = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +162,13 @@
 		81BE4ABD28EA446C00EA7D4C /* SplashApp */ = {
 			isa = PBXGroup;
 			children = (
+				8106FB5028EB3F2100313E6B /* ViewControllers */,
+				8106FB4F28EB3F0E00313E6B /* Models */,
+				8106FB4E28EB3EF000313E6B /* Extensions */,
+				8106FB4D28EB3EE300313E6B /* Services */,
+				8106FB3F28EAF94400313E6B /* Cells */,
 				81BE4ABE28EA446C00EA7D4C /* AppDelegate.swift */,
 				81BE4AC028EA446C00EA7D4C /* SceneDelegate.swift */,
-				81BE4AC228EA446C00EA7D4C /* ViewController.swift */,
 				81BE4AC428EA446C00EA7D4C /* Main.storyboard */,
 				81BE4AC728EA446D00EA7D4C /* Assets.xcassets */,
 				81BE4AC928EA446D00EA7D4C /* LaunchScreen.storyboard */,
@@ -143,6 +210,11 @@
 			dependencies = (
 			);
 			name = SplashApp;
+			packageProductDependencies = (
+				8106FB3628EA4C1500313E6B /* UnsplashPhotoPicker */,
+				8106FB3928EAD2BD00313E6B /* SDWebImage */,
+				8106FB4B28EB2C3500313E6B /* IHProgressHUD */,
+			);
 			productName = SplashApp;
 			productReference = 81BE4ABB28EA446C00EA7D4C /* SplashApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +287,11 @@
 				Base,
 			);
 			mainGroup = 81BE4AB228EA446C00EA7D4C;
+			packageReferences = (
+				8106FB3528EA4C1500313E6B /* XCRemoteSwiftPackageReference "unsplash-photopicker-ios" */,
+				8106FB3828EAD2BD00313E6B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				8106FB4A28EB2C3500313E6B /* XCRemoteSwiftPackageReference "IHProgressHUD" */,
+			);
 			productRefGroup = 81BE4ABC28EA446C00EA7D4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +310,7 @@
 			files = (
 				81BE4ACB28EA446D00EA7D4C /* LaunchScreen.storyboard in Resources */,
 				81BE4AC828EA446D00EA7D4C /* Assets.xcassets in Resources */,
+				8106FB4328EAF9B400313E6B /* CustomCell.xib in Resources */,
 				81BE4AC628EA446C00EA7D4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8106FB4928EB101800313E6B /* UIApplication.swift in Sources */,
 				81BE4AC328EA446C00EA7D4C /* ViewController.swift in Sources */,
+				8106FB3E28EAEF6300313E6B /* PhotosModel.swift in Sources */,
 				81BE4ABF28EA446C00EA7D4C /* AppDelegate.swift in Sources */,
+				8106FB3C28EAEE4100313E6B /* WebService.swift in Sources */,
+				8106FB4128EAF96D00313E6B /* CustomCell.swift in Sources */,
+				8106FB4528EB049A00313E6B /* FullScreenViewController.swift in Sources */,
 				81BE4AC128EA446C00EA7D4C /* SceneDelegate.swift in Sources */,
+				8106FB4728EB09AB00313E6B /* PannableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +524,14 @@
 				DEVELOPMENT_TEAM = 25ZC48M55X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SplashApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UnSplash;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Votre application a besoin d'une autorisation pour écrire des photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +555,14 @@
 				DEVELOPMENT_TEAM = 25ZC48M55X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SplashApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UnSplash;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Votre application a besoin d'une autorisation pour écrire des photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +692,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8106FB3528EA4C1500313E6B /* XCRemoteSwiftPackageReference "unsplash-photopicker-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/unsplash/unsplash-photopicker-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.3.0;
+			};
+		};
+		8106FB3828EAD2BD00313E6B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.9.5;
+			};
+		};
+		8106FB4A28EB2C3500313E6B /* XCRemoteSwiftPackageReference "IHProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swiftify-Corp/IHProgressHUD.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.1.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8106FB3628EA4C1500313E6B /* UnsplashPhotoPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8106FB3528EA4C1500313E6B /* XCRemoteSwiftPackageReference "unsplash-photopicker-ios" */;
+			productName = UnsplashPhotoPicker;
+		};
+		8106FB3928EAD2BD00313E6B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8106FB3828EAD2BD00313E6B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		8106FB4B28EB2C3500313E6B /* IHProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8106FB4A28EB2C3500313E6B /* XCRemoteSwiftPackageReference "IHProgressHUD" */;
+			productName = IHProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 81BE4AB328EA446C00EA7D4C /* Project object */;
 }
